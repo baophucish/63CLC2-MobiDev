@@ -1,3 +1,3 @@
 # 63CLC2-MobiDev
 
-Nơi lưu các dụ án về Android Studio
+Nơi lưu các dự án về Android Studio
