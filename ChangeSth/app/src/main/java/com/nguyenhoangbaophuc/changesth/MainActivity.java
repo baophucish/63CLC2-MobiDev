@@ -11,38 +11,66 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     private int clickColorCount = 0;
     private int clickSizeCount = 0;
+    private int size = 35;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         TextView textView = findViewById(R.id.textToChange);
-        Button button1 = findViewById(R.id.btnSize);
-        Button button2 = findViewById(R.id.btnColor);
+        Button btnUpSize = findViewById(R.id.upSize);
+        Button btnDownSize = findViewById(R.id.downSize);
 
-        button1.setOnClickListener(new View.OnClickListener() {
+        Button btnRed = findViewById(R.id.colorRed);
+        Button btnBlue = findViewById(R.id.colorBlue);
+        Button btnOrange = findViewById(R.id.colorOrange);
+        Button btnGreen = findViewById(R.id.colorGreen);
+
+        btnUpSize.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                clickSizeCount++;
-                if(clickSizeCount == 1){
-                    textView.setTextSize(65);
-                } else if (clickSizeCount == 2) {
-                    textView.setTextSize(35);
-                    clickSizeCount = 0;
+                if(size >= 0){
+                    textView.setTextSize(size + 2);
                 }
+                size += 2;
             }
         });
 
-        button2.setOnClickListener(new View.OnClickListener() {
+        btnDownSize.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                clickColorCount++;
-                if(clickColorCount == 1){
-                    textView.setTextColor(Color.parseColor("#bd0f32"));
-                } else if (clickColorCount == 2) {
-                    textView.setTextColor(Color.parseColor("#5018b8"));
-                    clickColorCount = 0;
+                if(size >= 0){
+                    textView.setTextSize(size - 2);
                 }
+                size-=2;
+            }
+        });
+
+        btnRed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                textView.setTextColor(Color.parseColor("#e8130c"));
+            }
+        });
+
+        btnGreen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                textView.setTextColor(Color.parseColor("#0ced5b"));
+            }
+        });
+
+        btnOrange.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                textView.setTextColor(Color.parseColor("#db4f09"));
+            }
+        });
+
+        btnBlue.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                textView.setTextColor(Color.parseColor("#0c4ced"));
             }
         });
     }
