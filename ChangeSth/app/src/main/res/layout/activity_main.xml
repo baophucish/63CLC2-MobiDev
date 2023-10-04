@@ -22,7 +22,7 @@
         android:textSize="35dp"
         android:textStyle="bold"
         android:gravity="center"
-        android:padding="20dp"
+
         />
 
     <TextView
@@ -57,12 +57,12 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/btnColor"
+    <Button
+        android:id="@+id/randomColorText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="Change Color"
+        android:text="Change Color Random"
         android:textSize="25dp"
         android:textStyle="bold"/>
 
@@ -100,4 +100,6 @@
             android:layout_marginRight="5dp"
             android:text="Green"/>
     </LinearLayout>
+
+
 </LinearLayout>
