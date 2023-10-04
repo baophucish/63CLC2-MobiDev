@@ -1,3 +1,5 @@
 # 63CLC2-MobiDev
 Nơi lưu các dự án về Android Studio
-[BMI](./BMI/app/src/main/java/com/nguyenhoangbaophuc/bmi/MainActivity.java)
+### 1. [Bài tập tính chỉ số BMI](./BMI/app/src/main/java/com/nguyenhoangbaophuc/bmi/MainActivity.java)
+
+![Bài BMI](./BMI/app/src/main/res/drawable/img.png)
