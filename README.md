@@ -14,8 +14,9 @@ Nơi lưu các dự án về Android Studio
 
 ### 3. Bài tập tính chỉ số BMI
 - Chi tiết bài tập tại [đây](./BMI/app/src/main/java/com/nguyenhoangbaophuc/bmi/MainActivity.java)
+- Ta cần tick vào check box để biết xem bạn muốn tính BMI cho người ở châu nào, đưa ra được kết quả chính xác cho người dùng
 - Khi nhập đầy đủ 2 chỉ số về cân nặng và chiều cao, ta ấn submit để đưa ra kết quả về chỉ số BMI của cơ thể.
-<img src ="./BMI/app/src/main/res/drawable/img.png">
+<img src ="./BMI/app/src/main/res/drawable/img2.png">
 
 ### 4. Bài tập Change Something
 - Chi tiết bài tập tại [đây](./ChangeSth/app/src/main/java/com/nguyenhoangbaophuc/changesth/MainActivity.java)
