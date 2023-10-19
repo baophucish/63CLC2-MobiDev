@@ -25,9 +25,17 @@ Nơi lưu các dự án về Android Studio
 - ở dưới là các button để đổi màu, ta có thể đổi màu ngẫu nhiên qua "Change color random" hoặc chọn 1 màu cụ thể ở dưới.
 <img src = "./ChangeSth/app/src/main/res/drawable/img.png">
 
+
 ### 5. Bài tập máy tính đơn giản
 - Chi tiết bài tập tại [đây](./SimpleCalculator/app/src/main/java/com/nguyenhoangbaophuc/simplecalculator/MainActivity.java)
 - Đầu tiên là ta nhập vào 2 số ở 2 ô bên dưới
 - Khi ta nhấn vào 1 trong 4 phép tính bên dưới thì nó sẽ hiện ra kết quả ở trong màn hình
 
 <img src="./SimpleCalculator/app/src/main/res/drawable/img.png">
+
+### 6. Bài Listview về các quốc gia
+- Chi tiết bài tập tại [đây](./TestListView/app/src/main/java/com/nguyenhoangbaophuc/testlistview/MainActivity.java)
+- Ta tạo 1 list về các quốc gia, bao gồm: quốc kì, tên quốc gia và dân số của quốc gia đó
+- Vì là bài tập sơ khai của list nên nó chỉ đơn giản là hiện ra 1 list gồm 3 quốc gia là Nga, Việt Nam và Mỹ
+  
+  <img src="./TestListView/app/src/main/res/drawable/img.png">
