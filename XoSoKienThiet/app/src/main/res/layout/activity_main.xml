@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/yellow">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:src="@drawable/phuc4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XSKH - Kết quả xổ số Khánh Hòa \n XSKH hôm nay - 15/10/2023"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <!-- Cac bo so-giai trung thuong -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <!-- giai 8-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="G8"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/giai8"
+                android:text="11"
+                android:textStyle="bold"
+                android:layout_weight="0.9"
+                android:textSize="24dp"
+                android:textColor="@color/red"
+                android:gravity="center"
+                android:layout_gravity="center" />
+        </LinearLayout>
+        <!-- giai 7-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="G7" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/giai7"
+                android:text="724"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:layout_gravity="center" />
+        </LinearLayout>
+        <!--   giai 6     -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="G6" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/giai6thu1"
+                android:text="9790"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/giai6thu2"
+                android:text="7825"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/giai6thu3"
+                android:text="9902"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!--giai 5-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="G5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/giai5"
+                android:text="4715"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:layout_gravity="center" />
+        </LinearLayout>
+        <!--giai 4-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="G4" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- hang 1 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/giai4thu1"
+                        android:text="26936"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/giai4thu2"
+                        android:text="42857"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/giai4thu3"
+                        android:text="30012"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <!-- hang 2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/giai4thu4"
+                        android:text="86684"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/giai4thu5"
+                        android:text="06357"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/giai4thu6"
+                        android:text="48759"
+                        android:textSize="24dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <!--hang3-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/giai4thu7"
+                    android:text="48759"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Giai 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="G3" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/giai3thu1"
+                android:text="55416"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/giai3thu2"
+                android:text="01323"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- giai 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="G2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/giai2"
+                android:text="28146"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:layout_gravity="center" />
+        </LinearLayout>
+        <!-- giai 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="G2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/giai1"
+                android:text="68283"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <!-- giai DB -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="DB" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/giaiDB"
+                android:text="116703"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="@color/red"
+                android:gravity="center"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Nhap ve so - thong bao trung thuong -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your ticket here"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/veSo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/result"
+            />
+    </LinearLayout>
+</LinearLayout>
+
