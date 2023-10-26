@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class Bai4Activity extends AppCompatActivity {
     Button btnBack;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +25,5 @@ public class Bai4Activity extends AppCompatActivity {
             }
         });
     }
-
 
 }

@@ -39,3 +39,10 @@ Nơi lưu các dự án về Android Studio
 - Vì là bài tập sơ khai của list nên nó chỉ đơn giản là hiện ra 1 list gồm 3 quốc gia là Nga, Việt Nam và Mỹ
   
   <img src="./TestListView/app/src/main/res/drawable/img.png">
+
+### 7. Bài thi giữa kì Android Studio
+- Tổng quan bài tập: Màn hình activity_main.xml
+  <img src="./63135100_ThiGiuaKy/app/src/main/res/drawable/img.png">
+- Chúng ta tạo 4 activity cho 4 câu, khi click vào button của câu nào sẽ chuyển sang màn hình của câu đó. Code chuyển màn hình từ Main sang các câu lần lượt từ 1 đến 4
+  <img src = "./63135100_ThiGiuaKy/app/src/main/res/drawable/codeMain.png">
+- Xem thêm chi tiết tại [đây](./63135100_ThiGiuaKy/README.md)
